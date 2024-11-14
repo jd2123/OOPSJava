@@ -1,6 +1,3 @@
-import java.util.*;
-import java.lang.*;
-
 class Point
 {
 	private float x, y;

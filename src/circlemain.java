@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class circle
+class circle1
 {
 	double rad;
 	
@@ -17,11 +17,11 @@ class circle
 		System.out.println("The area of circle with radius "+rad+" is = "+area());
 		System.out.println("The circumference of circle with radius "+rad+" is = "+circ());
 	}
-	circle()
+	circle1()
 	{
 		rad =1;
 	}
-	circle(double r)
+	circle1(double r)
 	{
 		rad=r;
 	}
@@ -31,11 +31,11 @@ class circlemain
 {
 	public static void main(String args[])
 	{
-		circle c1 = new circle();
+		circle1 c1 = new circle1();
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter radius of the circle: ");
 		double r = s.nextDouble();
-		circle c2 = new circle(r);
+		circle1 c2 = new circle1(r);
 		c1.disp();
 		c2.disp();
 		s.close();
